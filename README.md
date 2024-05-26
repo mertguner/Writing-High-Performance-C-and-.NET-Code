@@ -22,8 +22,8 @@ Intel Core i7-9750H CPU 2.60GHz, 1 CPU, 12 logical and 6 physical cores
 # Case2_Condition_Grouping
 | Method    | Mean      | Error     | StdDev    | Allocated |
 |---------- |----------:|----------:|----------:|----------:|
-| CaseTrue  | 0.0084 ns | 0.0025 ns | 0.0019 ns |         - |
-| CaseFalse | 0.0088 ns | 0.0017 ns | 0.0015 ns |         - |
+| CaseTrue  | 0.0000 ns | 0.0025 ns | 0.0019 ns |         - |
+| CaseFalse | 0.0008 ns | 0.0017 ns | 0.0015 ns |         - |
 
 # Case3_Loop_Element
 | Method    | Mean      | Error    | StdDev   | Allocated |
@@ -34,8 +34,8 @@ Intel Core i7-9750H CPU 2.60GHz, 1 CPU, 12 logical and 6 physical cores
 # Case4_Condition
 | Method    | Mean      | Error     | StdDev    | Median    | Allocated |
 |---------- |----------:|----------:|----------:|----------:|----------:|
-| CaseTrue  | 0.0016 ns | 0.0021 ns | 0.0017 ns | 0.0010 ns |         - |
-| CaseFalse | 0.0008 ns | 0.0019 ns | 0.0017 ns | 0.0000 ns |         - |
+| CaseTrue  | 251.2 ns | 0.0021 ns | 0.0017 ns | 0.0010 ns |         - |
+| CaseFalse | 313.6 ns | 0.0019 ns | 0.0017 ns | 0.0000 ns |         - |
 
 # Case5_Memory_Usege
 | Method    | Mean       | Error    | StdDev    | Median     | Gen0   | Allocated |
